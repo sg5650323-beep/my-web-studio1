@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  background: #1e293b;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  color: #38bdf8;
+}
+
+.hero {
+  text-align: center;
+  padding: 65px 15px;
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.hero p {
+  color: #cbd5e1;
+}
+
+button {
+  background: #0284c7;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.services {
+  text-align: center;
+  padding: 25px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 25px;
+  margin: 15px auto;
+  border-radius: 12px;
+  max-width: 450px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+}
+
+@media (max-width: 600px) {
+  .hero h2 {
+    font-size: 25px;
+  }
+}
+
+.about, .contact {
+  padding: 35px 20px;
+  text-align: center;
+}
+
+.about p {
+  color: #cbd5e1;
+  line-height: 1.8;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact form {
+  max-width: 450px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  background: #1e293b;
+  color: white;
+  font-size: 16px;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 25px;
+  background: #0284c7;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.contact button {
+  width: 100%;
+  cursor: pointer;
+}
+
+#status {
+  color: #38bdf8;
+  margin-top: 15px;
+}
